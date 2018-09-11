@@ -10,4 +10,10 @@ public class movieController {
     public String index(){
             return "index";
     }
+
+    @GetMapping("/second")
+    public String second(){
+            return "second";
+    }
+
 }
